@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <div>
       Not signed in <br />
-      <button className="text-black bg-white" onClick={() => signIn("github")}>Sign in</button>
+      <button className="text-black bg-white" onClick={() => signIn()}>Sign in</button>
     </div>
   );
 }
